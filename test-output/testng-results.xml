@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-05T23:03:57 BDT" name="Suite" finished-at="2025-09-05T23:04:07 BDT" duration-ms="9893">
+    <groups>
+    </groups>
+    <test started-at="2025-09-05T23:03:57 BDT" name="Test" finished-at="2025-09-05T23:04:07 BDT" duration-ms="9893">
+      <class name="api.test.UserTestCases_TC002">
+        <test-method is-config="true" signature="setupConfig()[pri:0, instance:api.test.UserTestCases_TC002@3e0e1046]" started-at="2025-09-05T23:04:04 BDT" name="setupConfig" finished-at="2025-09-05T23:04:04 BDT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfig -->
+        <test-method signature="getUserList()[pri:1, instance:api.test.UserTestCases_TC002@3e0e1046]" started-at="2025-09-05T23:04:04 BDT" name="getUserList" description="Get User List" finished-at="2025-09-05T23:04:04 BDT" duration-ms="638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserList -->
+        <test-method signature="searchUserById()[pri:2, instance:api.test.UserTestCases_TC002@3e0e1046]" started-at="2025-09-05T23:04:04 BDT" name="searchUserById" description="Search by Valid User Id" finished-at="2025-09-05T23:04:05 BDT" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUserById -->
+        <test-method signature="searchUserByInvalidId()[pri:3, instance:api.test.UserTestCases_TC002@3e0e1046]" started-at="2025-09-05T23:04:05 BDT" name="searchUserByInvalidId" description="Search by Invalid User Id" finished-at="2025-09-05T23:04:05 BDT" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUserByInvalidId -->
+        <test-method signature="editUserInfo()[pri:4, instance:api.test.UserTestCases_TC002@3e0e1046]" started-at="2025-09-05T23:04:05 BDT" name="editUserInfo" description="Edit User Info" finished-at="2025-09-05T23:04:05 BDT" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editUserInfo -->
+        <test-method signature="searchUserAfterUpdateById()[pri:5, instance:api.test.UserTestCases_TC002@3e0e1046]" started-at="2025-09-05T23:04:05 BDT" name="searchUserAfterUpdateById" description="Search User Info After Edit" finished-at="2025-09-05T23:04:06 BDT" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUserAfterUpdateById -->
+      </class> <!-- api.test.UserTestCases_TC002 -->
+      <class name="api.test.AuthTestCases_TC001">
+        <test-method is-config="true" signature="setupConfig()[pri:0, instance:api.test.AuthTestCases_TC001@d2de489]" started-at="2025-09-05T23:03:57 BDT" name="setupConfig" finished-at="2025-09-05T23:03:58 BDT" duration-ms="855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfig -->
+        <test-method signature="registerNewUser()[pri:1, instance:api.test.AuthTestCases_TC001@d2de489]" started-at="2025-09-05T23:03:58 BDT" name="registerNewUser" description="Register new user with valid data" finished-at="2025-09-05T23:04:02 BDT" duration-ms="3837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerNewUser -->
+        <test-method signature="registerExistingMail()[pri:2, instance:api.test.AuthTestCases_TC001@d2de489]" started-at="2025-09-05T23:04:02 BDT" name="registerExistingMail" description="Try to register new user with previous email" finished-at="2025-09-05T23:04:02 BDT" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerExistingMail -->
+        <test-method signature="loginAsAdmin()[pri:3, instance:api.test.AuthTestCases_TC001@d2de489]" started-at="2025-09-05T23:04:02 BDT" name="loginAsAdmin" description="Login as Admin with valid data" finished-at="2025-09-05T23:04:03 BDT" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsAdmin -->
+        <test-method signature="loginAsInvalidAdmin()[pri:4, instance:api.test.AuthTestCases_TC001@d2de489]" started-at="2025-09-05T23:04:03 BDT" name="loginAsInvalidAdmin" description="Try Login as Admin with invalid credential data" finished-at="2025-09-05T23:04:03 BDT" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsInvalidAdmin -->
+        <test-method signature="loginAsUser()[pri:5, instance:api.test.AuthTestCases_TC001@d2de489]" started-at="2025-09-05T23:04:03 BDT" name="loginAsUser" description="Login as new user with valid data" finished-at="2025-09-05T23:04:03 BDT" depends-on-methods="api.test.AuthTestCases_TC001.registerNewUser" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsUser -->
+        <test-method signature="loginAsUserWithWrongCred()[pri:6, instance:api.test.AuthTestCases_TC001@d2de489]" started-at="2025-09-05T23:04:03 BDT" name="loginAsUserWithWrongCred" description="Login as User with invalid data" finished-at="2025-09-05T23:04:04 BDT" duration-ms="494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsUserWithWrongCred -->
+      </class> <!-- api.test.AuthTestCases_TC001 -->
+      <class name="api.test.CostTestCases_TC003">
+        <test-method is-config="true" signature="setupConfig()[pri:0, instance:api.test.CostTestCases_TC003@7dc19a70]" started-at="2025-09-05T23:04:06 BDT" name="setupConfig" finished-at="2025-09-05T23:04:06 BDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfig -->
+        <test-method signature="addItem()[pri:1, instance:api.test.CostTestCases_TC003@7dc19a70]" started-at="2025-09-05T23:04:06 BDT" name="addItem" description="Add Cost Item" finished-at="2025-09-05T23:04:06 BDT" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItem -->
+        <test-method signature="getItems()[pri:2, instance:api.test.CostTestCases_TC003@7dc19a70]" started-at="2025-09-05T23:04:06 BDT" name="getItems" description="Get list of Items" finished-at="2025-09-05T23:04:06 BDT" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getItems -->
+        <test-method signature="editItem()[pri:3, instance:api.test.CostTestCases_TC003@7dc19a70]" started-at="2025-09-05T23:04:06 BDT" name="editItem" description="Edit Item Name" finished-at="2025-09-05T23:04:06 BDT" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editItem -->
+        <test-method signature="deleteItem()[pri:4, instance:api.test.CostTestCases_TC003@7dc19a70]" started-at="2025-09-05T23:04:06 BDT" name="deleteItem" description="Delete Item with valid Cost Id" finished-at="2025-09-05T23:04:07 BDT" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteItem -->
+        <test-method signature="deleteItemWithwrongCostID()[pri:5, instance:api.test.CostTestCases_TC003@7dc19a70]" started-at="2025-09-05T23:04:07 BDT" name="deleteItemWithwrongCostID" description="Try to Delete Item with Invalid Cost Id" finished-at="2025-09-05T23:04:07 BDT" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteItemWithwrongCostID -->
+      </class> <!-- api.test.CostTestCases_TC003 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
