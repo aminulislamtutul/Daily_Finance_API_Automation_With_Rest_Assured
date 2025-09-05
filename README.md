@@ -12,4 +12,15 @@ Using browser Developer Tools → Network tab, the following API interactions we
 - Add Item
 - Edit Item Name
 - Delete Item
+## API Documentation
+https://documenter.getpostman.com/view/46763324/2sB3HkqLbf
+## Technologies Used
+- Java
+- Rest Assured
+- TestNG / JUnit
+- Maven
+- Allure Reports
+- Extend Reports
+- Postman
+- Git & GitHub
 
