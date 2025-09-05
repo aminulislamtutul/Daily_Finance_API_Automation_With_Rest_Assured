@@ -23,4 +23,8 @@ https://documenter.getpostman.com/view/46763324/2sB3HkqLbf
 - Extend Reports
 - Postman
 - Git & GitHub
+## Extent Reports
+- Extent Reports → reports/
+<img width="959" height="420" alt="Screenshot_8" src="https://github.com/user-attachments/assets/77352913-af5f-4081-ad1a-1341fdcd4dc3" />
+
 
