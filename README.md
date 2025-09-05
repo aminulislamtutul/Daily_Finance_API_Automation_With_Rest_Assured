@@ -24,7 +24,12 @@ https://documenter.getpostman.com/view/46763324/2sB3HkqLbf
 - Postman
 - Git & GitHub
 ## Extent Reports
-- Extent Reports → reports/
-<img width="959" height="420" alt="Screenshot_8" src="https://github.com/user-attachments/assets/77352913-af5f-4081-ad1a-1341fdcd4dc3" />
+- Extent Reports → `reports/`
+<img width="948" height="420" alt="Screenshot_8" src="https://github.com/user-attachments/assets/056ed7a2-5ea9-48f8-a98e-caf064e98e9d" />
+
+## Allure Reports
+- Allure Reports → `allure-report`
+<img width="948" height="419" alt="Screenshot_9" src="https://github.com/user-attachments/assets/a0b1d866-c7bb-4d3b-a851-14339b70aa20" />
+
 
 
